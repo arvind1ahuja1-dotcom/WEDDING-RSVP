@@ -8,7 +8,7 @@
 content="Tap the image to RSVP for our wedding celebrations">
 
 <meta property="og:image"
-content="https://arvind1ahuja1-dotcom.github.io/WEDDING-RSVP/Namaste_RSVP.png">
+content="https://raw.githubusercontent.com/arvind1ahuja1-dotcom/WEDDING-RSVP/main/Namaste_RSVP.png">
 
 <meta property="og:type" content="website">
 
@@ -17,10 +17,14 @@ content="https://arvind1ahuja1-dotcom.github.io/WEDDING-RSVP/Namaste_RSVP.png">
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
+setTimeout(function(){
+  
 window.location.replace(
 "https://script.google.com/macros/s/AKfycbzP3P7Yb70d149dWTqfkjNj-ZbxF5fOgOaGRIbMwuu0NY16cc1hnxL0GTufI15J3juW/exec?id=" + id
 );
 
+}, 1500);
+  
 </script>
 
 </head>
