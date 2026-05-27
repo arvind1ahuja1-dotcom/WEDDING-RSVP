@@ -20,8 +20,7 @@ content="https://arvind1ahuja1-dotcom.github.io/WEDDING-RSVP/">
 
 <script>
 
-const params = new URLSearchParams(window.location.search);
-const id = params.get("id");
+const id = window.location.hash.substring(1);
 
 setTimeout(function(){
   
